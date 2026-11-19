@@ -1,0 +1,12 @@
+[project]
+name = "apk-para-descargar-videos"
+version = "0.1.0"
+dependencies = [
+    "flet",
+    "yt-dlp",
+]
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
+"android.permission.WRITE_EXTERNAL_STORAGE" = true
+"android.permission.READ_EXTERNAL_STORAGE" = true
